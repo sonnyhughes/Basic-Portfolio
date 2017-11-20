@@ -6,7 +6,7 @@ html{
 body{
 	background-image: url('../images/dust_scratches.png');
 	min-height: 100%;
-	max-width: 100%;
+	max-width: 960px;
 	min-width: 1100px;
 	position: relative;
 }
@@ -40,7 +40,7 @@ header{
 
 #name{
 	position: absolute;
-	left: 5%;
+	left: 10%;
 	width: 250px;
 	height: 100%;
 	display: flex;
@@ -54,7 +54,7 @@ header{
 ul{
     list-style-type: none;
     position: absolute;
-     right: 3%;
+    right: 4%;
     top: 40%;
 }
 
@@ -88,7 +88,7 @@ ul{
 	background-color: #ffffff;
 	border: 2px #dddddd solid; 
 	position: absolute;
-	left: 5%;
+	left: 10%;
 	top: 120px;
 }
 
