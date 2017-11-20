@@ -2,7 +2,7 @@ html{
 	max-width: 1200px;
 	content-align: center;
 }
-
+ 
 body{
 	background-image: url('../images/dust_scratches.png');
 	min-height: 100%;
@@ -54,7 +54,7 @@ header{
 ul{
     list-style-type: none;
     position: absolute;
-    right: 4%;
+    right: 3%;
     top: 40%;
 }
 
@@ -102,7 +102,7 @@ ul{
 .connect{
 	background-color: #ffffff;
 	position: absolute;
-	right: 3%;
+	right: 2%;
 	top:120px;
 	border: 2px #CCCCCC solid; 
 	width: 270px;
