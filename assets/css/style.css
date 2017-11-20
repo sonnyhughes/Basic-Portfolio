@@ -11,6 +11,10 @@ body{
 	position: relative;
 }
 
+
+/* Header and Nav Links*/
+
+
 h2 {
 	font-size: 28px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -76,6 +80,9 @@ ul{
 }
 
 
+/*Main Content*/
+
+
 .mainContent{
 	width: 650px;
 	background-color: #ffffff;
@@ -114,6 +121,17 @@ ul{
     padding: 0px 20px 10px 30px;
 }
 
+
+/*Connect*/
+
+#connectWithMe{
+	margin: 0px 27px 0px 27px;
+    padding: 30px 0px 20px 7px;
+	font-size: 22px;
+	color: #00AFA8;
+	border-bottom: 2px #DDDDDD solid;
+}
+
 .connectImages{
 	width:70px;
 	margin: 10px 0px 10px 10px;
@@ -126,18 +144,9 @@ ul{
 	box-shadow: 10px 10px 5px #888888;
 }
 
-#SO-image{
-	width:70px;
-	margin-right: 10px;
-}
 
-#connectWithMe{
-	margin: 0px 27px 0px 27px;
-    padding: 30px 0px 20px 7px;
-	font-size: 22px;
-	color: #00AFA8;
-	border-bottom: 2px #DDDDDD solid;
-}
+/*Contact Me*/
+
 
 #contactForm{
 	padding-bottom: 25px;
@@ -169,6 +178,22 @@ form{
 	border: 2px #DFDFDF solid;
 }
 
+
+/*Portfolio Items*/
+
+.imageText{
+	width:274px;
+	background-color: #00AFA8;
+	height: 60px;
+	font-size: 22px;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -80px;
+	position: relative;
+}
+
 .game{
 	float: left;
 	margin: 15px 5px 15px 15px;
@@ -182,23 +207,8 @@ form{
 	height: 204px;
 }
 
-.imageText{
-	width:274px;
-	background-color: #00AFA8;
-	height: 60px;
-	font-size: 22px;
-	color: #ffffff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: -80px;
-	position: relative;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
-}
 
-
-
+/*Footer*/
 
 footer{
 	width: 100%;
